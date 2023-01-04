@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="43.029">
+    <testcase classname="CoinMarket_TC_01" name="Data_for_comparison" time="42.676">
+        <system-out>
+            <![CDATA[Given navigate to home page.................................................passed
+Then click on popup message and cookies button..............................passed
+And click on the box next to rows and select the value "20".................passed
+And capture all the contents under name and price rows......................passed
+And click on the "Filters"..................................................passed
+And click on Algorithm as "Algorithm" then select Pow.......................passed
+And click on Add filter as "Add filter".....................................passed
+Then toggle Mineable on new window..........................................passed
+And select the All Cryptocurrencies as "All Cryptocurrencies"...............passed
+And click on Coins as "Coins"...............................................passed
+And select Price and change the value "100" and "10000".....................passed
+When click Apply filter as "Apply filter" then Show results as "Show results".passed
+And compare page contents to before filter page content.....................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
