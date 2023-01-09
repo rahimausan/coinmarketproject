@@ -57,14 +57,16 @@ public class CoinStepDefs {
     // 2) Click on popup message and cookies button
     @Then("click on popup message and cookies button")
     public void click_on_popup_message_and_cookies_button() {
-        Driver.waitAndClick(coinHomePage.cmcWrap);
+      //  Driver.waitAndClick(coinHomePage.cmcWrap);
         Driver.waitAndClick(coinHomePage.cookies);
     }
     //3) Click on the box next to rows and select the value "<value>"
     @Then("click on the box next to rows and select the value {string}")
     public void click_on_the_box_next_to_rows_and_select_the_value(String string) {
         Driver.clickWithJS(coinHomePage.rows);
-        Driver.getDriver().findElement(By.xpath("//button[contains(text(), '20')]")).click();
+        Driver.wait(2);
+      //  Driver.waitAndClick(coinHomePage.value20);
+        Driver.getDriver().findElement(By.xpath("//button[contains(text(),'20')]")).click();
     }
     //4) Capture all the contents under name and price rows
     @Then("capture all the contents under name and price rows")

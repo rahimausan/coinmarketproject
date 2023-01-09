@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="43.029">
-    <testcase classname="CoinMarket_TC_01" name="Data_for_comparison" time="42.676">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="44.519">
+    <testcase classname="CoinMarket_TC_01" name="Data_for_comparison" time="44.134">
         <system-out>
             <![CDATA[Given navigate to home page.................................................passed
 Then click on popup message and cookies button..............................passed

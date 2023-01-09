@@ -15,6 +15,8 @@ public class CoinHomePage {
         public WebElement cookies;
         @FindBy(xpath = "(//div[@data-sensors-click=\"true\"])[10]")
         public WebElement rows;
+        @FindBy(xpath = "(//button[contains(text(),'Filters')])[2]")
+        public WebElement value20;
 
     @FindBy(xpath = "//*[@id='mineable']/span")
     public WebElement mineable;
